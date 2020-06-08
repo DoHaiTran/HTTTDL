@@ -27,7 +27,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Pictures/3700051448975567catple_wallpapers_9656.jpg</pixmap>
+     <pixmap>../Images/3700051448975567catple_wallpapers_9656.jpg</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -43,7 +43,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Pictures/logo_hust.png</pixmap>
+     <pixmap>../Images/logo_hust.png</pixmap>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
@@ -118,7 +118,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../media/dohai/Data/Downloads/tài liệu học tập/kì 20192/Hệ thống thông tin địa lý/logo pfiev edit.png</pixmap>
+     <pixmap>../Images/logo pfiev edit.png</pixmap>
     </property>
    </widget>
   </widget>

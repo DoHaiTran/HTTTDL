@@ -155,7 +155,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../media/dohai/Data/Downloads/tài liệu học tập/kì 20192/Hệ thống thông tin địa lý/sight1.jpg</pixmap>
+     <pixmap>../Images/sight1.jpg</pixmap>
     </property>
    </widget>
    <widget class="QTableView" name="tableView">
@@ -222,6 +222,19 @@
     </property>
     <property name="text">
      <string>Direct</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Back</string>
     </property>
    </widget>
   </widget>

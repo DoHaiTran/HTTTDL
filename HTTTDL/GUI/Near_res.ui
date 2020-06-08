@@ -161,7 +161,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../media/dohai/Data/Downloads/tài liệu học tập/kì 20192/Hệ thống thông tin địa lý/sight.jpg</pixmap>
+     <pixmap>../Images/sight.jpg</pixmap>
     </property>
    </widget>
    <widget class="QComboBox" name="comboBox_3">
@@ -235,6 +235,19 @@
       <width>411</width>
       <height>41</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Back</string>
     </property>
    </widget>
   </widget>

@@ -161,17 +161,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../media/dohai/Data/Downloads/tài liệu học tập/kì 20192/Hệ thống thông tin địa lý/sight.jpg</pixmap>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>110</y>
-      <width>411</width>
-      <height>41</height>
-     </rect>
+     <pixmap>../Images/sight.jpg</pixmap>
     </property>
    </widget>
    <widget class="QComboBox" name="comboBox_2">
@@ -179,9 +169,12 @@
      <rect>
       <x>300</x>
       <y>190</y>
-      <width>411</width>
+      <width>481</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="currentText">
+     <string/>
     </property>
    </widget>
    <widget class="QComboBox" name="comboBox_3">
@@ -189,7 +182,7 @@
      <rect>
       <x>300</x>
       <y>270</y>
-      <width>411</width>
+      <width>481</width>
       <height>41</height>
      </rect>
     </property>
@@ -199,7 +192,7 @@
      <rect>
       <x>300</x>
       <y>350</y>
-      <width>411</width>
+      <width>161</width>
       <height>41</height>
      </rect>
     </property>
@@ -209,7 +202,7 @@
      <rect>
       <x>300</x>
       <y>430</y>
-      <width>411</width>
+      <width>161</width>
       <height>41</height>
      </rect>
     </property>
@@ -300,7 +293,7 @@
       <x>90</x>
       <y>440</y>
       <width>141</width>
-      <height>21</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -311,20 +304,116 @@
      </font>
     </property>
     <property name="text">
-     <string>Price</string>
+     <string>Min price</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>690</x>
-      <y>500</y>
+      <x>670</x>
+      <y>510</y>
       <width>111</width>
       <height>41</height>
      </rect>
     </property>
     <property name="text">
      <string>Filter</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>100</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>100</y>
+      <width>89</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>350</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Chancery L</family>
+      <pointsize>20</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>Closing hour</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>350</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>440</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Chancery L</family>
+      <pointsize>20</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>Max price</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_6">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>430</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
     </property>
    </widget>
   </widget>
